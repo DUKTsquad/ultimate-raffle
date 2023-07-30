@@ -80,7 +80,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="/raffle2"
+            href="/raffle3"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

@@ -1,14 +1,14 @@
 import { Container, Flex, Text } from "@chakra-ui/react";
 import { ConnectWallet, useAddress, useContract, useContractRead } from "@thirdweb-dev/react";
 import Link from "next/link";
-import { LOTTERY_CONTRACT_ADDRESS_R1, LOTTERY_CONTRACT_ADDRESS_R2 } from "../const/addresses";
+import { LOTTERY_CONTRACT_ADDRESS_R1, LOTTERY_CONTRACT_ADDRESS_R2, LOTTERY_CONTRACT_ADDRESS_R3 } from "../const/addresses";
 
 export default function Navbar() {
     const address = useAddress();
 
     const {
         contract
-    } = useContract(LOTTERY_CONTRACT_ADDRESS_R1 && LOTTERY_CONTRACT_ADDRESS_R2);
+    } = useContract(LOTTERY_CONTRACT_ADDRESS_R1 && LOTTERY_CONTRACT_ADDRESS_R2 && LOTTERY_CONTRACT_ADDRESS_R3);
 
     const {
         data: admin,
