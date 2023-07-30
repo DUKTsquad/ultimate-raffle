@@ -43,7 +43,7 @@ export default function PrizeNFT() {
                             />
                         </Box>
                         <Box>
-                            <Text fontSize={"2xl"} fontWeight={"bold"}>{PrizeNFT.name}</Text>
+                            <Text fontSize={"2xl"} fontWeight={"bold"}>{nftContractMetadata?.name}</Text>
                             <Text fontWeight={"bold"}>{nft?.metadata.name}</Text>
                         </Box>
                     </Stack>

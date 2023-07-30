@@ -95,7 +95,7 @@ export default function Admin() {
                             )}
                         </Box>
                         <Web3Button
-                            contractAddress={LOTTERY_CONTRACT_ADDRESS_R2}
+                            contractAddress={LOTTERY_CONTRACT_ADDRESS_R3}
                             action={(contract) => contract.call(
                                 "withdrawBalance"
                             )}
