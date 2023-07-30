@@ -4,7 +4,7 @@ import { Web3Button, useContract, useContractRead } from "@thirdweb-dev/react";
 import { LOTTERY_CONTRACT_ADDRESS_R1 } from "../../const/addresses";
 import { useState } from "react";
 
-export default function AdminLotteryStatusCard_R1() {
+export default function AdminLotteryStatusCard() {
     const {
         contract
     } = useContract(LOTTERY_CONTRACT_ADDRESS_R1);
