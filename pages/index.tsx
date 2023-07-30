@@ -12,11 +12,11 @@ const Home: NextPage = () => {
             Welcome to{" "}
             <span className={styles.gradientText0}>
               <a
-                href="https://thirdweb.com/"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                the Raffle App.
+                the Ultimate Raffle.
               </a>
             </span>
           </h1>
@@ -100,7 +100,7 @@ const Home: NextPage = () => {
             </div>
           </a>
           <a
-            href="/raffle1"
+            href="https://bucolic-faun-a6318a.netlify.app/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

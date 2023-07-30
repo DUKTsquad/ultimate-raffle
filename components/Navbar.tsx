@@ -25,7 +25,7 @@ export default function Navbar() {
                     <Link href={"/"}>
                         <Text fontWeight={"bold"} mr={10}>Raffle Home</Text>
                     </Link>
-                    <Link href={"/"}>
+                    <Link href={"https://bucolic-faun-a6318a.netlify.app/"}>
                         <Text fontWeight={"bold"} mr={10}>Cash In</Text>
                     </Link>
                 </Flex>
