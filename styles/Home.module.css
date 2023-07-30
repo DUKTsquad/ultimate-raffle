@@ -13,21 +13,21 @@
 }
 
 .gradientText1 {
-  background: -webkit-linear-gradient(#a79af9, #7aa8d2);
+  background: -webkit-linear-gradient(#fcfcfc, #c3def5);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradientText2 {
-  background: -webkit-linear-gradient(#bfa3da, #743f93);
+  background: -webkit-linear-gradient(#fcfcfc, #c3def5);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradientText3 {
-  background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
+  background: -webkit-linear-gradient(#fcfcfc, #c3def5);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -78,7 +78,7 @@
 .card {
   background-color: #131313;
   text-align: left;
-  color: inherit;
+  color: #fedc3c;
   text-decoration: none;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;

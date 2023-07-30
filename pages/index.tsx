@@ -16,15 +16,14 @@ const Home: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                thirdweb.
+                the Raffle App.
               </a>
             </span>
           </h1>
 
           <p className={styles.description}>
-            Get started by configuring your desired network in{" "}
-            <code className={styles.code}>src/index.js</code>, then modify the{" "}
-            <code className={styles.code}>src/App.js</code> file!
+            Get started by connecting your desired wallet,
+            then choose a raffle!
           </p>
 
           <div className={styles.connect}>
@@ -39,7 +38,7 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <a
-            href="https://portal.thirdweb.com/"
+            href="/raffle1"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +50,7 @@ const Home: NextPage = () => {
               height={200}
             />
             <div className={styles.cardText}>
-              <h2 className={styles.gradientText1}>Portal ➜</h2>
+              <h2 className={styles.gradientText1}>Raffle 1 ➜ Win 25 MATIC</h2>
               <p>
                 Guides, references, and resources that will help you build with
                 thirdweb.
@@ -60,7 +59,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://thirdweb.com/dashboard"
+            href="/raffle2"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -72,7 +71,7 @@ const Home: NextPage = () => {
               height={200}
             />
             <div className={styles.cardText}>
-              <h2 className={styles.gradientText2}>Dashboard ➜</h2>
+              <h2 className={styles.gradientText2}>Raffle 2 ➜ Win 100 MATIC</h2>
               <p>
                 Deploy, configure, and manage your smart contracts from the
                 dashboard.
@@ -81,7 +80,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://thirdweb.com/templates"
+            href="/raffle2"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -93,10 +92,30 @@ const Home: NextPage = () => {
               height={200}
             />
             <div className={styles.cardText}>
-              <h2 className={styles.gradientText3}>Templates ➜</h2>
+              <h2 className={styles.gradientText3}>Big Drawing ➜ Win Big Prizes</h2>
               <p>
                 Discover and clone template projects showcasing thirdweb
                 features.
+              </p>
+            </div>
+          </a>
+          <a
+            href="/raffle1"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/portal-preview.png"
+              alt="Placeholder preview of starter"
+              width={300}
+              height={200}
+            />
+            <div className={styles.cardText}>
+              <h2 className={styles.gradientText1}>Winners Hub ➜ Cash Out for MATIC</h2>
+              <p>
+                Guides, references, and resources that will help you build with
+                thirdweb.
               </p>
             </div>
           </a>
